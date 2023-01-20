@@ -60,7 +60,7 @@ body {
 }
 
 .menu-btn.open .menu-burger {
-    /* transform: translateX(50px); */
+    transform: translateX(50px);
     width: 60px;
     box-shadow: none;
     background-color: #ffd200;
