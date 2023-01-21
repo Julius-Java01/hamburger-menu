@@ -21,19 +21,29 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 0;
 }
 
 .fa-bars {
     color: white;
-    transition: all .5s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.fa-arrow-right-long {
+    color: #ffd200;
+    transition: all .1s ease-in-out;
 }
 
 .fa-bars:hover {
     color: #f40082;
 }
 
-.fa-bars.open {
+i.fa-solid.rotate-half {
+    transform: rotate(-90deg);
+}
+
+i.fa-solid.rotate-full {
     transform: rotate(-180deg);
 }
+
