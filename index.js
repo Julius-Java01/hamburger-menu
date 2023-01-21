@@ -3,6 +3,5 @@ $(document).ready(() => {
 
     menuBtn.click(() => {
         menuBtn.toggleClass('open')
-        
     })
 })
