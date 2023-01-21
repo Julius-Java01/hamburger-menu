@@ -1,8 +1,8 @@
 $(document).ready(() => {
-    const menuBtn = $('.fa-bars')
+    const menuBtn = $('i.fa-solid')
 
     menuBtn.click(() => {
         menuBtn.toggleClass('open')
-        // console.log(menuBtn.html())
+        
     })
 })
