@@ -1,8 +1,12 @@
 $(document).ready(() => {
-    const menuBtn = $('.menu-btn')
-    var menuOpen = false;
+    const menuBtn = $('i.fa-solid')
 
     menuBtn.click(() => {
-        menuBtn.toggleClass('open')
+        menuBtn.toggleClass('rotate-half')
+
+        setTimeout(() => {
+            menuBtn.toggleClass('fa-bars') // removes the bar-icon
+            menuBtn.toggleClass('rotate-full fa-arrow-right-long') // rotates 
+        }, 100)
     })
 })
