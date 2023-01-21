@@ -27,11 +27,14 @@ body {
 
 .fa-bars {
     color: white;
+    transition: all .5s ease-in-out;
 }
 
 .fa-bars:hover {
     color: #f40082;
 }
+
+.fa-bars.open 
 
 /* .menu-burger {
     width: 50px;
